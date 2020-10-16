@@ -3,6 +3,7 @@
 php7-env 是Linux CentOS7 下apache+php一键部署环境包(php-7.2.99 apache-2.4.10)，绿色版，直接二进制解压即可运行。与原服务环境无任何冲突,不写系统环境变量，不影响系统已安装的web服务器(nginx、apache等)，内置apache如启动只默认占用1038端口，内置redis、swoole、rdkafka、zookeeper的php扩展，也可以使用phpize安装更多扩展,默认解压到/opt/目录下。该环境主要用于快速部署应用。
 ## 安装说明
 下载release包
+wget https://github.com/io3x/php7-env-bin/releases/download/a5728a7/io3x-env-php7299-apache2410-bin-v1.0.zip
 系统环境支持 CentOS7+
 上传bin包文件到系统/opt目录
 ![](https://php-images.oss-cn-qingdao.aliyuncs.com/uploadfile/md/202010/1017/95E6A2A60732A0220D031F7E9AD84AA2.png)
