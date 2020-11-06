@@ -102,6 +102,7 @@ extension=xxx.so
 即可
 
 ## 使用apache httpd服务器
+可以配置多个端口
 
 ### 启动httpd web服务器
 转到目录,执行
